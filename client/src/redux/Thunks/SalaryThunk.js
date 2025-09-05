@@ -1,5 +1,5 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import { apiService } from "../apis/apiService";
+import { apiService } from "../apis/APIService";
 import { SalaryEndPoints } from "../apis/APIsEndpoints";
 
 export const HandleGetAllSalaries = createAsyncThunk("HandleGetAllSalaries", async (_, { rejectWithValue }) => {
